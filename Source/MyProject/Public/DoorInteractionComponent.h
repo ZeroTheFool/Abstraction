@@ -39,6 +39,8 @@ public:
 	static void OnDebugToggled(IConsoleVariable* var);
 	void DebugDraw();
 
+	void OnDoorOpen();
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
